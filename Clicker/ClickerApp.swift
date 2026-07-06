@@ -16,8 +16,16 @@ struct ClickerApp: App {
     }
 }
 
-/// App shell: Remote home + Devices screen. // PLACEHOLDER UI
+/// App shell: Remote home + Devices screen.
 struct RootView: View {
+    init() {
+        let appearance = UITabBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = UIColor(ClickerTheme.charcoalDeep)
+        UITabBar.appearance().standardAppearance = appearance
+        UITabBar.appearance().scrollEdgeAppearance = appearance
+    }
+
     var body: some View {
         TabView {
             NavigationStack {
@@ -30,5 +38,7 @@ struct RootView: View {
             }
             .tabItem { Label("Devices", systemImage: "wifi") }
         }
+        .tint(ClickerTheme.neon)
+        .preferredColorScheme(.dark)
     }
 }

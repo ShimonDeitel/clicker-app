@@ -12,7 +12,9 @@
 		2734FE211992D60B2D90E05C /* LGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EE9607EA867423CD916BD /* LGController.swift */; };
 		315BD0CA7758EB2F441B34FE /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */; };
 		419B37C964E19EF439831013 /* DiscoveredTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */; };
+		75E8C5E833585B599E50A5CE /* SonarSweepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830FA8EF22061CE07118DF87 /* SonarSweepView.swift */; };
 		7AB211DE567B8026B88BDD63 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FFDBCE5417670B71B6FC1 /* PaywallView.swift */; };
+		9206C34C652A495F5902CB8F /* ClickerTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56B2E91D9DB9A00A8A6E3A1 /* ClickerTheme.swift */; };
 		A2E06D79E9E4728F824C2CB3 /* TVProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B92F2E2B9C9B6B5FC40C40 /* TVProtocol.swift */; };
 		A3276F59D89C39F877844044 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905EA7EF458C781ED677C6B /* DevicesView.swift */; };
 		BA322A64F2FE69B89D4714BC /* RokuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */; };
@@ -31,11 +33,13 @@
 		603D65317883BDAD47BBCA97 /* SamsungController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungController.swift; sourceTree = "<group>"; };
 		6820A46BEFC872FF6FA3CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerApp.swift; sourceTree = "<group>"; };
+		830FA8EF22061CE07118DF87 /* SonarSweepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarSweepView.swift; sourceTree = "<group>"; };
 		930EE9607EA867423CD916BD /* LGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGController.swift; sourceTree = "<group>"; };
 		A905EA7EF458C781ED677C6B /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
 		BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredTV.swift; sourceTree = "<group>"; };
 		ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuController.swift; sourceTree = "<group>"; };
+		F56B2E91D9DB9A00A8A6E3A1 /* ClickerTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -65,11 +69,21 @@
 			children = (
 				6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */,
 				6820A46BEFC872FF6FA3CDF9 /* Info.plist */,
+				84BA7261882C013976ECCD6F /* Design */,
 				EC25020611BD8FA3BEA68D6E /* Models */,
 				309D186C9DEE74AAD7A7FF86 /* Services */,
 				AC13BEF4EEDED69789CD80EE /* Views */,
 			);
 			path = Clicker;
+			sourceTree = "<group>";
+		};
+		84BA7261882C013976ECCD6F /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				F56B2E91D9DB9A00A8A6E3A1 /* ClickerTheme.swift */,
+				830FA8EF22061CE07118DF87 /* SonarSweepView.swift */,
+			);
+			path = Design;
 			sourceTree = "<group>";
 		};
 		9154E8D3C70C48FD7A00B3A8 /* Products */ = {
@@ -159,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBEF026981D723A4F50A49E8 /* ClickerApp.swift in Sources */,
+				9206C34C652A495F5902CB8F /* ClickerTheme.swift in Sources */,
 				A3276F59D89C39F877844044 /* DevicesView.swift in Sources */,
 				419B37C964E19EF439831013 /* DiscoveredTV.swift in Sources */,
 				1DD7756B862E23504C9BA593 /* DiscoveryService.swift in Sources */,
@@ -168,6 +183,7 @@
 				BA322A64F2FE69B89D4714BC /* RokuController.swift in Sources */,
 				FFE7259FAE5E3839FCF48E93 /* SamsungController.swift in Sources */,
 				00243B970EF2BB58F96E6D8F /* SavedTV.swift in Sources */,
+				75E8C5E833585B599E50A5CE /* SonarSweepView.swift in Sources */,
 				F995D81D72CF6633C0C56D1A /* StoreManager.swift in Sources */,
 				A2E06D79E9E4728F824C2CB3 /* TVProtocol.swift in Sources */,
 			);

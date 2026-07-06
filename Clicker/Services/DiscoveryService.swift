@@ -1,6 +1,7 @@
 import Foundation
 import Network
 import Observation
+import os
 
 /// Bonjour (NWBrowser) discovery for the four service types declared in
 /// NSBonjourServices, plus manual-IP probing. v1 has NO SSDP (multicast
