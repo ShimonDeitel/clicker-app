@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00243B970EF2BB58F96E6D8F /* SavedTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8AC30C4FBC7B9407AE1C7 /* SavedTV.swift */; };
+		1DD7756B862E23504C9BA593 /* DiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AC6AEDFFA80FB894FE5106 /* DiscoveryService.swift */; };
+		2734FE211992D60B2D90E05C /* LGController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930EE9607EA867423CD916BD /* LGController.swift */; };
+		315BD0CA7758EB2F441B34FE /* RemoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */; };
+		419B37C964E19EF439831013 /* DiscoveredTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */; };
+		7AB211DE567B8026B88BDD63 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004FFDBCE5417670B71B6FC1 /* PaywallView.swift */; };
+		A2E06D79E9E4728F824C2CB3 /* TVProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B92F2E2B9C9B6B5FC40C40 /* TVProtocol.swift */; };
+		A3276F59D89C39F877844044 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905EA7EF458C781ED677C6B /* DevicesView.swift */; };
+		BA322A64F2FE69B89D4714BC /* RokuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */; };
+		EBEF026981D723A4F50A49E8 /* ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */; };
+		F995D81D72CF6633C0C56D1A /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F79A16CA216E52D4DB20CB /* StoreManager.swift */; };
+		FFE7259FAE5E3839FCF48E93 /* SamsungController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603D65317883BDAD47BBCA97 /* SamsungController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		004FFDBCE5417670B71B6FC1 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		07D8AC30C4FBC7B9407AE1C7 /* SavedTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTV.swift; sourceTree = "<group>"; };
+		16B92F2E2B9C9B6B5FC40C40 /* TVProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVProtocol.swift; sourceTree = "<group>"; };
+		32F79A16CA216E52D4DB20CB /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		3CC265C9F4D074DF9BF504AD /* Clicker.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Clicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55AC6AEDFFA80FB894FE5106 /* DiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryService.swift; sourceTree = "<group>"; };
+		603D65317883BDAD47BBCA97 /* SamsungController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungController.swift; sourceTree = "<group>"; };
+		6820A46BEFC872FF6FA3CDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerApp.swift; sourceTree = "<group>"; };
+		930EE9607EA867423CD916BD /* LGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGController.swift; sourceTree = "<group>"; };
+		A905EA7EF458C781ED677C6B /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
+		BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredTV.swift; sourceTree = "<group>"; };
+		ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		309D186C9DEE74AAD7A7FF86 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55AC6AEDFFA80FB894FE5106 /* DiscoveryService.swift */,
+				930EE9607EA867423CD916BD /* LGController.swift */,
+				ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */,
+				603D65317883BDAD47BBCA97 /* SamsungController.swift */,
+				32F79A16CA216E52D4DB20CB /* StoreManager.swift */,
+				16B92F2E2B9C9B6B5FC40C40 /* TVProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7AB487DF66B5C66CB0841116 = {
+			isa = PBXGroup;
+			children = (
+				7B009DCCB8AE058797989E3E /* Clicker */,
+				9154E8D3C70C48FD7A00B3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B009DCCB8AE058797989E3E /* Clicker */ = {
+			isa = PBXGroup;
+			children = (
+				6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */,
+				6820A46BEFC872FF6FA3CDF9 /* Info.plist */,
+				EC25020611BD8FA3BEA68D6E /* Models */,
+				309D186C9DEE74AAD7A7FF86 /* Services */,
+				AC13BEF4EEDED69789CD80EE /* Views */,
+			);
+			path = Clicker;
+			sourceTree = "<group>";
+		};
+		9154E8D3C70C48FD7A00B3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC265C9F4D074DF9BF504AD /* Clicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC13BEF4EEDED69789CD80EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A905EA7EF458C781ED677C6B /* DevicesView.swift */,
+				004FFDBCE5417670B71B6FC1 /* PaywallView.swift */,
+				B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC25020611BD8FA3BEA68D6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */,
+				07D8AC30C4FBC7B9407AE1C7 /* SavedTV.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64583103401C2FABDEA84798 /* Clicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E582F00E1DC75973111FB5B /* Build configuration list for PBXNativeTarget "Clicker" */;
+			buildPhases = (
+				87A38DEB6741CF9913EC6968 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clicker;
+			packageProductDependencies = (
+			);
+			productName = Clicker;
+			productReference = 3CC265C9F4D074DF9BF504AD /* Clicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EDD9E4BD2DCA9112B6AD8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					64583103401C2FABDEA84798 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8657E3A8FAFAC745F72D5C1 /* Build configuration list for PBXProject "Clicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7AB487DF66B5C66CB0841116;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9154E8D3C70C48FD7A00B3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64583103401C2FABDEA84798 /* Clicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A38DEB6741CF9913EC6968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEF026981D723A4F50A49E8 /* ClickerApp.swift in Sources */,
+				A3276F59D89C39F877844044 /* DevicesView.swift in Sources */,
+				419B37C964E19EF439831013 /* DiscoveredTV.swift in Sources */,
+				1DD7756B862E23504C9BA593 /* DiscoveryService.swift in Sources */,
+				2734FE211992D60B2D90E05C /* LGController.swift in Sources */,
+				7AB211DE567B8026B88BDD63 /* PaywallView.swift in Sources */,
+				315BD0CA7758EB2F441B34FE /* RemoteView.swift in Sources */,
+				BA322A64F2FE69B89D4714BC /* RokuController.swift in Sources */,
+				FFE7259FAE5E3839FCF48E93 /* SamsungController.swift in Sources */,
+				00243B970EF2BB58F96E6D8F /* SavedTV.swift in Sources */,
+				F995D81D72CF6633C0C56D1A /* StoreManager.swift in Sources */,
+				A2E06D79E9E4728F824C2CB3 /* TVProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1CD769812A824C09E7E72BE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clicker/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deitel.clicker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8CB4C28FF171819FA1294D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E5D2669BBBB31AE2DF1CFA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clicker/Info.plist;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deitel.clicker;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEBD9E0B44EDFF411A590A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E582F00E1DC75973111FB5B /* Build configuration list for PBXNativeTarget "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5D2669BBBB31AE2DF1CFA0E /* Debug */,
+				1CD769812A824C09E7E72BE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F8657E3A8FAFAC745F72D5C1 /* Build configuration list for PBXProject "Clicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBD9E0B44EDFF411A590A11 /* Debug */,
+				A8CB4C28FF171819FA1294D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EDD9E4BD2DCA9112B6AD8F /* Project object */;
+}
