@@ -27,6 +27,22 @@ struct RootView: View {
     }
 
     var body: some View {
+        Group {
+            #if DEBUG
+            if let screen = ProcessInfo.processInfo.environment["CLICKER_SCREEN"] {
+                DebugScreenHost(screen: screen)
+            } else {
+                tabs
+            }
+            #else
+            tabs
+            #endif
+        }
+        .tint(ClickerTheme.neon)
+        .preferredColorScheme(.dark)
+    }
+
+    private var tabs: some View {
         TabView {
             NavigationStack {
                 RemoteView()
@@ -38,7 +54,25 @@ struct RootView: View {
             }
             .tabItem { Label("Devices", systemImage: "wifi") }
         }
-        .tint(ClickerTheme.neon)
-        .preferredColorScheme(.dark)
     }
 }
+
+#if DEBUG
+/// Dev-only direct screen routing for headless screenshot verification:
+/// SIMCTL_CHILD_CLICKER_SCREEN=devices|paywall xcrun simctl launch …
+/// Never compiled into Release.
+private struct DebugScreenHost: View {
+    let screen: String
+
+    var body: some View {
+        switch screen {
+        case "devices":
+            NavigationStack { DevicesView() }
+        case "paywall":
+            PaywallView()
+        default:
+            NavigationStack { RemoteView() }
+        }
+    }
+}
+#endif

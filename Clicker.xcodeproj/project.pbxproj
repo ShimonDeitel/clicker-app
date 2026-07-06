@@ -20,6 +20,7 @@
 		BA322A64F2FE69B89D4714BC /* RokuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */; };
 		EBEF026981D723A4F50A49E8 /* ClickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */; };
 		F995D81D72CF6633C0C56D1A /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F79A16CA216E52D4DB20CB /* StoreManager.swift */; };
+		FE4844203BC8BDAB5851E0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA201205D27215063FF81850 /* Assets.xcassets */; };
 		FFE7259FAE5E3839FCF48E93 /* SamsungController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603D65317883BDAD47BBCA97 /* SamsungController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		930EE9607EA867423CD916BD /* LGController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGController.swift; sourceTree = "<group>"; };
 		A905EA7EF458C781ED677C6B /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		B9E8A8FDCEE422C595A4D136 /* RemoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteView.swift; sourceTree = "<group>"; };
+		BA201205D27215063FF81850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA227F6157D99B4AEF0F3712 /* DiscoveredTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredTV.swift; sourceTree = "<group>"; };
 		ED2A531E3BD97C87E78DB1F6 /* RokuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RokuController.swift; sourceTree = "<group>"; };
 		F56B2E91D9DB9A00A8A6E3A1 /* ClickerTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerTheme.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		7B009DCCB8AE058797989E3E /* Clicker */ = {
 			isa = PBXGroup;
 			children = (
+				BA201205D27215063FF81850 /* Assets.xcassets */,
 				6F5275AD87E4E2369F6A4EDB /* ClickerApp.swift */,
 				6820A46BEFC872FF6FA3CDF9 /* Info.plist */,
 				84BA7261882C013976ECCD6F /* Design */,
@@ -121,6 +124,7 @@
 			buildConfigurationList = 6E582F00E1DC75973111FB5B /* Build configuration list for PBXNativeTarget "Clicker" */;
 			buildPhases = (
 				87A38DEB6741CF9913EC6968 /* Sources */,
+				ECED495C4437525E91BA299C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +170,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECED495C4437525E91BA299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4844203BC8BDAB5851E0AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		87A38DEB6741CF9913EC6968 /* Sources */ = {
