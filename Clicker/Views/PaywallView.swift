@@ -9,8 +9,8 @@ struct PaywallView: View {
     @State private var selectedProductID: String?
     @State private var isPurchasing = false
 
-    private static let privacyURL: URL? = nil
-    private static let termsURL: URL? = nil
+    private static let privacyURL = URL(string: "https://shimondeitel.github.io/clicker-app/privacy.html")
+    private static let termsURL = URL(string: "https://shimondeitel.github.io/clicker-app/terms.html")
 
     var body: some View {
         ZStack {
